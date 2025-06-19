@@ -5,13 +5,13 @@ A collection of reusable functions for scientific computing.
 ## Installation
 
 ```bash
-poetry add git+https://github.com/OrtnerMichael/mx.git
+poetry add mx82
 ```
 
 ## Usage
 
 ```python
-from mx import sf4
+from mx82 import sf4
 
 result = sf(1.23456)
 print(result)

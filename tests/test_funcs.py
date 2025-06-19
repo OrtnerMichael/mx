@@ -1,5 +1,5 @@
 import numpy as np
-from mx.funcs import (
+from mx82.funcs import (
     sf,
     sf3,
     sf4,
