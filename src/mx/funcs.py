@@ -12,7 +12,7 @@ def sf3(x):
     """Round a number or NumPy array to 3 significant figures."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, 3) for xi in x])
-    if x == 0:
+    if x==0: 
         return 0
     return round(x, 3 - int(np.floor(np.log10(abs(x)))) - 1)
 
