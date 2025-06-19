@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mx82"
-version = "0.1.6"
+version = "0.1.7"
 description = "my extensions: reusable functions for scientific computing"
 authors = ["Lox Nez Monsta <magpylib@gmail.com>"]
 license = "MIT"
