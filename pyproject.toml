@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mx82"
-version = "0.1.3"
+version = "0.1.4"
 description = "my extensions: reusable functions for scientific computing"
 authors = ["Lox Nez Monsta <magpylib@gmail.com>"]
 license = "MIT"
@@ -9,7 +9,7 @@ homepage = "https://github.com/OrtnerMichael/mx"
 repository = "https://github.com/OrtnerMichael/mx"
 
 [tool.poetry.dependencies]
-python = ">=3.13"
+python = ">=3.11"
 numpy = ">=2.3.0,<3.0.0"
 
 [[tool.poetry.packages]]
