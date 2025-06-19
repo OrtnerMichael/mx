@@ -20,6 +20,11 @@ print(result)
 
 ## Development
 
+```bash
+git clone https://github.com/OrtnerMichael/mx82.git
+cd mx82
+poetry install
+```
 
 ## License
 
