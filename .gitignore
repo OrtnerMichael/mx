@@ -55,3 +55,6 @@ desktop.ini
 
 # IDE settings
 .idea/
+
+# ruff
+.ruff_cache/
