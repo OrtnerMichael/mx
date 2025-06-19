@@ -1,10 +1,11 @@
 [project]
 name = "mx"
 version = "0.1.0"
-description = ""
+description = "my extensions: reusable functions for scientific computing"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Lox Nez Monsta",email = "magpylib@gmail.com"}
 ]
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -24,3 +25,7 @@ pre-commit = "^4.2.0"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/OrtnerMichael/mx"
+"Source" = "https://github.com/OrtnerMichael/mx"
