@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+
+# Virtual environment (if you configure in-project venv)
+.venv/
+
+# Poetry's virtualenvs outside project folder are not tracked, so no need to ignore them
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Scientific data files (optional, depending on your project)
+*.h5
+*.csv
+*.npz
+*.npy
+
+# Mac and Windows crap
+Icon?
+ehthumbs.db
+desktop.ini
+
+# IDE settings
+.idea/
