@@ -1,6 +1,6 @@
 [project]
-name = "mx"
-version = "0.1.0"
+name = "mx82"
+version = "0.1.1"
 description = "my extensions: reusable functions for scientific computing"
 authors = [
     {name = "Lox Nez Monsta",email = "magpylib@gmail.com"}
