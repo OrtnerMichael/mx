@@ -2,10 +2,10 @@ name: CI
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main, dev]
 
 jobs:
-  test:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,13 +15,20 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'  # adjust your version
+        python-version: '3.11'
+
+    - name: Install Poetry
+      run: |
+        pip install poetry
 
     - name: Install dependencies
       run: |
-        pip install poetry
         poetry install
 
-    - name: Run tests
+    - name: Run Ruff (Linting)
+      run: |
+        poetry run ruff check .
+
+    - name: Run Pytest (Unit Tests)
       run: |
         poetry run pytest
