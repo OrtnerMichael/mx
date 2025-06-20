@@ -20,7 +20,7 @@ def sf3(x):
 
 
 def sf4(x):
-    """Round a number or np.ndarray to 4 significant figures."""
+    """Round a number or np.ndarray to 4 significant figures.."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, 4) for xi in x])
     if x == 0:
