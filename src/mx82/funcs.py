@@ -2,7 +2,7 @@ import numpy as np
 
 
 def sf(x, sig=3):
-    """Round a number or NumPy array to the specified number of significant figures."""
+    """Round a number or np.ndarray to the specified number of significant figures."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, sig) for xi in x])
     if x == 0:
@@ -11,7 +11,7 @@ def sf(x, sig=3):
 
 
 def sf3(x):
-    """Round a number or NumPy array to 3 significant figures."""
+    """Round a number or np.ndarray to 3 significant figures."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, 3) for xi in x])
     if x == 0:
@@ -20,7 +20,7 @@ def sf3(x):
 
 
 def sf4(x):
-    """Round a number or NumPy array to 4 significant figures."""
+    """Round a number or np.ndarray to 4 significant figures."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, 4) for xi in x])
     if x == 0:
@@ -29,7 +29,7 @@ def sf4(x):
 
 
 def sf5(x):
-    """Round a number or NumPy array to 5 significant figures."""
+    """Round a number or np.ndarray to 5 significant figures."""
     if isinstance(x, np.ndarray):
         return np.array([sf(xi, 5) for xi in x])
     if x == 0:
