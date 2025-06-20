@@ -25,7 +25,7 @@ def sf4(x):
         return np.array([sf(xi, 4) for xi in x])
     if x == 0:
         return 0
-    return round(x, 3 - int(np.floor(np.log10(abs(x)))) - 1)
+    return round(x, 4 - int(np.floor(np.log10(abs(x)))) - 1)
 
 
 def sf5(x):
